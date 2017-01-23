@@ -1,5 +1,5 @@
-// project clocksequence main.go
-// Solution for Project Euler Problem #506
+// project problem_506 main.go
+// Solution for Project Euler Problem #506, Clock sequence.
 /*
   Currently it makes not much sense to try to solve the problem
   as it obviousely needs something like the math/big package.
