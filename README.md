@@ -1,2 +1,2 @@
 # euler
-My Go (golang) solutions for the Euler Project
+My solutions for the Euler Project written in Go (golang)
