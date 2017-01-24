@@ -2,7 +2,21 @@
 // Solution for Project Euler Problem #003, Largest prime factor
 package main
 
+import "fmt"
+
+// main is the entry point of the app
 func main() {
+	n := 600851475143
+	fmt.Println("Find largest primefactor of ", n)
+	for i := 2; i < (n / i); i++ {
+		for n%i == 0 {
+			n = n / i
+			fmt.Printf("%d x %d\n", n, i)
+		}
+	}
+	if n > 1 {
+		fmt.Println("Largest prime factor:", n)
+	}
 
 }
 

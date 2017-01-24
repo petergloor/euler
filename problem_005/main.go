@@ -8,7 +8,9 @@ func main() {
 	var k int
 	for i := 1; true; i++ {
 		// Let the user know we are still in search of the solution
-		if i%1000000 == 0 {fmt.Println(i/1000000, " million numbers processed")}
+		if i%1000000 == 0 {
+			fmt.Println(i/1000000, " million numbers processed")
+		}
 		k = 0
 		for j := 1; j <= 20; j++ {
 			if i%j == 0 {
