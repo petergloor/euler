@@ -9,12 +9,13 @@ func main() {
 
 	for i := 1; i < 1000; i++ {
 		switch {
-		case i % 3 ==0:
-			fmt.Println(i)
+		case i%3 == 0:
 			sum += i
-		case i % 5 == 0:
-			fmt.Println(i)
+			fmt.Println(i, sum)
+
+		case i%5 == 0:
 			sum += i
+			fmt.Println(i, sum)
 		}
 	}
 	fmt.Println("The sum is:", sum)
