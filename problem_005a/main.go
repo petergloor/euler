@@ -1,4 +1,4 @@
-// project problem_005 main.go
+// project problem_005a main.go
 // Solution for Project Euler Problem #005, Smallest multiple.
 package main
 
